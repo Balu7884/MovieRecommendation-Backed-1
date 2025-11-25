@@ -14,7 +14,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/recommendations")
 @RequiredArgsConstructor
-@CrossOrigin(origins = "https://movie-recommendation-frontend-zeta.vercel.app/") // Vite default
+@CrossOrigin(origins = "https://movie-recommendation-frontend-zeta.vercel.app") // Vite default
 public class RecommendationController {
 
     private final RecommendationService recommendationService;
